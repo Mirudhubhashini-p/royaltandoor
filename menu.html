@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="/food.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <section class="head">
+        <!---- header Section--->
+        <header>
+            
+            <nav>
+                <h1 class="logo"> <i class='bx bxs-food-menu'></i>Menu</h1>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="desserts.html">Dessert</a></li>
+                 <li><a href="chinese.html">Chinese</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                 
+                 <button class="btn-cart">Cart<i class='bx bxs-cart-add' id="cart-icon"></i><div class="cart-count">0</div></button>
+                 
+                 
+                
+                </ul>
+            </nav>
+            <!----Cart Section-->
+
+            <div class="cart">
+                <div class="cart-title">Cart items</div>
+                <div class="cart-content">
+                    <!-- <div class="cart-box">
+                        <img src="/Images/Full Chicken.jfif" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-food-title">Full Grill</div>
+                            <div class="price-box">
+                                <div class="cart-price">Rs.400</div>
+                                <div class="cart-amt">Rs.400</div>
+                                </div>
+                                <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <i class='bx bx-trash cart-remove' ></i>
+                    </div>
+
+                    <div class="cart-box">
+                        <img src="/Images/pepper.jfif" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-food-title">Pepper Masala</div>
+                            <div class="price-box">
+                                <div class="cart-price">Rs.150</div>
+                                <div class="cart-amt">Rs.150</div>
+                                </div>
+                                <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <i class='bx bx-trash cart-remove' ></i>
+                    </div> -->
+                </div>
+             <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">Rs.0</div>
+
+             </div>
+             <button class="btn-buy">Place Order</button>
+             <i class='bx bx-x' id="cart-close"></i>
+
+            </div>
+        </header>
+
+
+         <!---- Food Section--->
+        <div class="container">
+            <div class="food-box">
+
+                <img src="/Images/Panner butter.jpg" class="food-img">
+                <h2 class="food-title">Panner Butter</h2>
+                <h3 class="food-price">Rs.350</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+
+            <div class="food-box">
+
+                <img src="/Images/Chicken-Fried-Rice-Ready-1.png" class="food-img">
+                <h2 class="food-title">Fired Rice</h2>
+                <h3 class="food-price">Rs.150</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+
+            <div class="food-box">
+
+                <img src="/Images/chicken-tikka-kabab-recipe-india.jpg" class="food-img">
+                <h2 class="food-title">Chicken Tikka</h2>
+                <h3 class="food-price">Rs.300</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/briyani.jfif" class="food-img">
+                <h2 class="food-title">Briyani</h2>
+                <h3 class="food-price">Rs.300</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+            <div class="food-box">
+
+                <img src="/Images/Chops.jfif" class="food-img">
+                <h2 class="food-title">Chicken Chops</h2>
+                <h3 class="food-price">Rs.200</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+            <div class="food-box">
+
+                <img src="/Images/Japan-chicken.jfif" class="food-img">
+                <h2 class="food-title">Japan Chicken</h2>
+                <h3 class="food-price">Rs.250</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+            <div class="food-box">
+
+                <img src="/Images/beef-roast-2-kerala-parotta.jpg" class="food-img">
+                <h2 class="food-title">Parrata</h2>
+                <h3 class="food-price">Rs.100</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+            <div class="food-box">
+
+                <img src="/Images/Mutton-Kulambu.jpg" class="food-img">
+                <h2 class="food-title">Mutton Gravy</h2>
+                <h3 class="food-price">Rs.400</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/Veg plate.jpg" class="food-img">
+                <h2 class="food-title">Veg Full Plate</h2>
+                <h3 class="food-price">Rs.300</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/mushroom.jfif" class="food-img">
+                <h2 class="food-title">Mushroom</h2>
+                <h3 class="food-price">Rs.150</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="Images/Grill Chops.webp" class="food-img">
+                <h2 class="food-title">Grilled Chops</h2>
+                <h3 class="food-price">Rs.100</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/Full Chicken.jfif" class="food-img">
+                <h2 class="food-title">Full Grill</h2>
+                <h3 class="food-price">Rs.400</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/pepper.jfif" class="food-img">
+                <h2 class="food-title">Pepper Masala</h2>
+                <h3 class="food-price">Rs.150</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/Non -veg thalli.jfif" class="food-img">
+                <h2 class="food-title">Non-Veg Thalli</h2>
+                <h3 class="food-price">Rs.200</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/Naan Chicken.jfif" class="food-img">
+                <h2 class="food-title">Naan & Chicken</h2>
+                <h3 class="food-price">Rs.100</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/Mutton Nalli.jpg" class="food-img">
+                <h2 class="food-title">Mutton Nalli</h2>
+                <h3 class="food-price">Rs.150</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+            <div class="food-box">
+
+                <img src="/Images/egg Briyani.jfif" class="food-img">
+                <h2 class="food-title">Egg Briyani</h2>
+                <h3 class="food-price">Rs.100</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/mutton Kolo.jfif" class="food-img">
+                <h2 class="food-title">Mutton Kolo</h2>
+                <h3 class="food-price">Rs.100</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/kfc chicken.jfif" class="food-img">
+                <h2 class="food-title">Fried Chicken</h2>
+                <h3 class="food-price">Rs.150</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+            <div class="food-box">
+
+                <img src="/Images/asian-noodles-with-prawns-vegetables-served-bowl-dark-background_1220-5659.avif" class="food-img">
+                <h2 class="food-title">Mutton Noodles</h2>
+                <h3 class="food-price">Rs.100</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/Naan.jfif" class="food-img">
+                <h2 class="food-title">Naan</h2>
+                <h3 class="food-price">Rs.50</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/Stuffed Mutton & Chicken Rolls.jfif" class="food-img">
+                <h2 class="food-title">Stuffed Rolls</h2>
+                <h3 class="food-price">Rs.150</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+            <div class="food-box">
+
+                <img src="/Images/Mandi Briyani.webp" class="food-img">
+                <h2 class="food-title">Mandi Full Plate</h2>
+                <h3 class="food-price">Rs.1000</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+            <div class="food-box">
+
+                <img src="/Images/soup.jpg" class="food-img">
+                <h2 class="food-title">Soups</h2>
+                <h3 class="food-price">Rs.50</h3>
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+        </div>
+
+        
+
+
+
+    </section>
+   <!----Script Section-->
+   <script src="/javascript/script.js"></script>
+</body>
+</html>
